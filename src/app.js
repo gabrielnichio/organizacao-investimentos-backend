@@ -1,7 +1,7 @@
 import express from "express";
 import connectDatabase from "./config/dbConnection.js";
 import routes from "./routes/index.js";
-
+//dev branch
 const connection = await connectDatabase()
 
 connection.on("error", (error) => {
